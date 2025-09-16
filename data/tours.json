@@ -1,0 +1,523 @@
+{
+  "tours": [
+    {
+      "id": "tour-001",
+      "monasteryId": 1,
+      "name": "Rumtek Monastery Virtual Experience",
+      "localName": "རུམ་ཐེག་དགོན་པ།",
+      "description": "Experience the grandeur of the Dharma Chakra Centre, seat of the 16th Karmapa. This comprehensive 360° tour takes you through the main prayer hall, golden stupa, and monastery grounds.",
+      "location": "East Sikkim, 24 km from Gangtok",
+      "coordinates": [27.2833, 88.5556],
+      "established": 1966,
+      "type": "ancient",
+      "category": "Kagyu",
+      "duration": "45 minutes",
+      "difficulty": "Easy",
+      "bestTime": "Morning (6 AM - 9 AM)",
+      "hasVirtualTour": true,
+      "rating": 4.8,
+      "totalReviews": 342,
+      "viewCount": 15420,
+      "featured": true,
+      "popular": true,
+      "remote": false,
+      "images": {
+        "thumbnail": "assets/images/rumtek-thumb.jpg",
+        "cover": "assets/images/rumtek-cover.jpg",
+        "gallery": [
+          "assets/images/rumtek-1.jpg",
+          "assets/images/rumtek-2.jpg",
+          "assets/images/rumtek-3.jpg"
+        ]
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Main Entrance Gate",
+          "image": "assets/panoramas/rumtek-entrance.jpg",
+          "description": "The ornate entrance gate with traditional Tibetan architecture",
+          "hotspots": [
+            {
+              "pitch": 10,
+              "yaw": 50,
+              "type": "info",
+              "title": "Prayer Wheels",
+              "description": "Spin these wheels clockwise while reciting 'Om Mani Padme Hum'"
+            },
+            {
+              "pitch": -5,
+              "yaw": 180,
+              "type": "navigation",
+              "targetPano": "pano-2",
+              "title": "Enter Main Courtyard"
+            }
+          ]
+        },
+        {
+          "id": "pano-2",
+          "title": "Main Prayer Hall",
+          "image": "assets/panoramas/rumtek-prayer-hall.jpg",
+          "description": "The magnificent prayer hall with golden Buddha statue",
+          "hotspots": [
+            {
+              "pitch": 15,
+              "yaw": 0,
+              "type": "info",
+              "title": "Golden Buddha Statue",
+              "description": "12-foot tall Shakyamuni Buddha covered in gold leaf"
+            },
+            {
+              "pitch": 0,
+              "yaw": 90,
+              "type": "info",
+              "title": "Thangka Paintings",
+              "description": "Ancient scroll paintings depicting Buddhist deities"
+            }
+          ]
+        },
+        {
+          "id": "pano-3",
+          "title": "Golden Stupa",
+          "image": "assets/panoramas/rumtek-stupa.jpg",
+          "description": "The sacred stupa containing relics of the 16th Karmapa",
+          "hotspots": [
+            {
+              "pitch": 20,
+              "yaw": 0,
+              "type": "info",
+              "title": "Sacred Relics",
+              "description": "Contains precious relics and teachings of the Karmapa lineage"
+            }
+          ]
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/rumtek-en.mp3",
+          "duration": "42:30",
+          "narrator": "Tenzin Norbu",
+          "chapters": [
+            {"time": "00:00", "title": "Introduction"},
+            {"time": "05:30", "title": "History of Rumtek"},
+            {"time": "15:00", "title": "Main Prayer Hall"},
+            {"time": "25:00", "title": "Golden Stupa"},
+            {"time": "35:00", "title": "Monastery Life"},
+            {"time": "40:00", "title": "Visiting Guidelines"}
+          ]
+        },
+        "hi": {
+          "url": "assets/audio/rumtek-hi.mp3",
+          "duration": "42:30",
+          "narrator": "राज कुमार"
+        },
+        "ne": {
+          "url": "assets/audio/rumtek-ne.mp3",
+          "duration": "42:30",
+          "narrator": "कर्मा शेर्पा"
+        },
+        "tb": {
+          "url": "assets/audio/rumtek-tb.mp3",
+          "duration": "42:30",
+          "narrator": "བསྟན་འཛིན་ནོར་བུ།"
+        }
+      },
+      "highlights": [
+        "Largest monastery in Sikkim",
+        "Golden Stupa with 16th Karmapa's relics",
+        "Traditional Tibetan architecture",
+        "Monk debates every evening",
+        "Annual Cham dance festival"
+      ],
+      "facilities": [
+        "Parking available",
+        "Wheelchair accessible (partial)",
+        "Photography allowed (no flash)",
+        "Guided tours available",
+        "Cafeteria",
+        "Gift shop",
+        "Restrooms"
+      ],
+      "restrictions": [
+        "Remove shoes before entering prayer hall",
+        "Maintain silence in meditation areas",
+        "No photography of certain sacred objects",
+        "Dress modestly"
+      ],
+      "timings": {
+        "summer": "6:00 AM - 7:00 PM",
+        "winter": "7:00 AM - 5:00 PM",
+        "closed": "During special ceremonies"
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 50,
+        "student": 5,
+        "photography": 20
+      },
+      "nearbyAttractions": [
+        {"name": "Lingdum Monastery", "distance": "2 km"},
+        {"name": "Enchey Monastery", "distance": "8 km"},
+        {"name": "Ganesh Tok", "distance": "15 km"}
+      ],
+      "tags": ["must-visit", "kagyu", "golden-stupa", "16th-karmapa", "architecture"],
+      "lastUpdated": "2024-11-15"
+    },
+    {
+      "id": "tour-002",
+      "monasteryId": 2,
+      "name": "Pemayangtse Monastery Journey",
+      "localName": "པད་མ་ཡང་རྩེ།",
+      "description": "Explore one of Sikkim's oldest and most important Nyingma monasteries. Features the unique seven-tiered wooden structure depicting Guru Rinpoche's celestial palace.",
+      "location": "West Sikkim, Pelling",
+      "coordinates": [27.3167, 88.2500],
+      "established": 1705,
+      "type": "ancient",
+      "category": "Nyingma",
+      "duration": "35 minutes",
+      "difficulty": "Moderate",
+      "bestTime": "Afternoon (2 PM - 5 PM)",
+      "hasVirtualTour": true,
+      "rating": 4.7,
+      "totalReviews": 289,
+      "viewCount": 12350,
+      "featured": true,
+      "popular": true,
+      "remote": false,
+      "images": {
+        "thumbnail": "assets/images/pemayangtse-thumb.jpg",
+        "cover": "assets/images/pemayangtse-cover.jpg"
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Monastery Entrance",
+          "image": "assets/panoramas/pemayangtse-entrance.jpg",
+          "description": "The traditional entrance with colorful prayer flags"
+        },
+        {
+          "id": "pano-2",
+          "title": "Main Assembly Hall",
+          "image": "assets/panoramas/pemayangtse-hall.jpg",
+          "description": "Ancient murals and the famous wooden sculpture"
+        },
+        {
+          "id": "pano-3",
+          "title": "Zangdok Palri Model",
+          "image": "assets/panoramas/pemayangtse-palace.jpg",
+          "description": "The intricate 7-tiered wooden model of Guru Rinpoche's palace"
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/pemayangtse-en.mp3",
+          "duration": "35:00",
+          "narrator": "Pemba Lama"
+        }
+      },
+      "highlights": [
+        "300+ year old monastery",
+        "Zangdok Palri wooden sculpture",
+        "Ancient Buddhist manuscripts",
+        "Panoramic view of Kanchenjunga",
+        "Annual Chaam dance festival"
+      ],
+      "facilities": [
+        "Parking available",
+        "Basic amenities",
+        "Local guide available",
+        "Small museum"
+      ],
+      "timings": {
+        "summer": "7:00 AM - 6:00 PM",
+        "winter": "8:00 AM - 4:00 PM"
+      },
+      "entryFee": {
+        "indian": 20,
+        "foreign": 40,
+        "student": 10
+      },
+      "tags": ["ancient", "nyingma", "wooden-sculpture", "kanchenjunga-view"],
+      "lastUpdated": "2024-11-15"
+    },
+    {
+      "id": "tour-003",
+      "monasteryId": 3,
+      "name": "Tashiding Monastery Pilgrimage",
+      "localName": "བཀྲ་ཤིས་ལྡིང་།",
+      "description": "Sacred monastery known for the holy Bumchu festival and the Thongwa Rangdol chorten that cleanses sins by mere sight.",
+      "location": "West Sikkim, 40 km from Gyalshing",
+      "coordinates": [27.3500, 88.2333],
+      "established": 1641,
+      "type": "ancient",
+      "category": "Nyingma",
+      "duration": "40 minutes",
+      "difficulty": "Moderate",
+      "bestTime": "Early morning",
+      "hasVirtualTour": true,
+      "rating": 4.6,
+      "totalReviews": 198,
+      "viewCount": 8920,
+      "featured": false,
+      "popular": true,
+      "remote": true,
+      "images": {
+        "thumbnail": "assets/images/tashiding-thumb.jpg",
+        "cover": "assets/images/tashiding-cover.jpg"
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Thongwa Rangdol Chorten",
+          "image": "assets/panoramas/tashiding-chorten.jpg",
+          "description": "The sacred stupa that cleanses sins by sight"
+        },
+        {
+          "id": "pano-2",
+          "title": "Main Temple",
+          "image": "assets/panoramas/tashiding-temple.jpg",
+          "description": "The main prayer hall with ancient artifacts"
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/tashiding-en.mp3",
+          "duration": "38:00",
+          "narrator": "Karma Bhutia"
+        }
+      },
+      "highlights": [
+        "Holy Bumchu festival",
+        "Thongwa Rangdol chorten",
+        "Sacred water vase",
+        "Meditation caves",
+        "Heart of Sikkim location"
+      ],
+      "facilities": [
+        "Limited parking",
+        "Basic facilities",
+        "Local guides"
+      ],
+      "timings": {
+        "summer": "6:00 AM - 5:00 PM",
+        "winter": "7:00 AM - 4:00 PM"
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 30,
+        "student": 5
+      },
+      "tags": ["pilgrimage", "bumchu", "sacred", "ancient", "remote"],
+      "lastUpdated": "2024-11-15"
+    },
+    {
+      "id": "tour-004",
+      "monasteryId": 4,
+      "name": "Enchey Monastery Exploration",
+      "localName": "དགའ་ལྡན་ཆོས་འཁོར་གླིང་།",
+      "description": "200-year-old monastery above Gangtok, famous for its annual masked dance festival and spectacular views of Kanchenjunga.",
+      "location": "Gangtok, 3 km from city center",
+      "coordinates": [27.3389, 88.6065],
+      "established": 1909,
+      "type": "modern",
+      "category": "Nyingma",
+      "duration": "30 minutes",
+      "difficulty": "Easy",
+      "bestTime": "Sunset time",
+      "hasVirtualTour": true,
+      "rating": 4.5,
+      "totalReviews": 425,
+      "viewCount": 18750,
+      "featured": false,
+      "popular": true,
+      "remote": false,
+      "images": {
+        "thumbnail": "assets/images/enchey-thumb.jpg",
+        "cover": "assets/images/enchey-cover.jpg"
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Monastery Courtyard",
+          "image": "assets/panoramas/enchey-courtyard.jpg",
+          "description": "The peaceful courtyard with mountain views"
+        },
+        {
+          "id": "pano-2",
+          "title": "Prayer Hall",
+          "image": "assets/panoramas/enchey-hall.jpg",
+          "description": "Colorful murals and traditional decorations"
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/enchey-en.mp3",
+          "duration": "28:00",
+          "narrator": "Sonam Wangdi"
+        }
+      },
+      "highlights": [
+        "Annual Cham dance festival",
+        "Kanchenjunga views",
+        "City monastery",
+        "Beautiful murals",
+        "Peaceful atmosphere"
+      ],
+      "facilities": [
+        "Good parking",
+        "Well maintained",
+        "City connectivity",
+        "Shops nearby"
+      ],
+      "timings": {
+        "summer": "6:00 AM - 6:00 PM",
+        "winter": "7:00 AM - 4:00 PM"
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 20,
+        "student": 5
+      },
+      "tags": ["city", "accessible", "cham-dance", "sunset-view"],
+      "lastUpdated": "2024-11-15"
+    },
+    {
+      "id": "tour-005",
+      "monasteryId": 5,
+      "name": "Phodong Monastery Discovery",
+      "localName": "ཕོ་བྲང་དགོན་པ།",
+      "description": "Beautiful 18th-century monastery in North Sikkim with exquisite murals and annual religious dance festival.",
+      "location": "North Sikkim, 38 km from Gangtok",
+      "coordinates": [27.4333, 88.6000],
+      "established": 1740,
+      "type": "ancient",
+      "category": "Kagyu",
+      "duration": "35 minutes",
+      "difficulty": "Moderate",
+      "bestTime": "Morning",
+      "hasVirtualTour": true,
+      "rating": 4.4,
+      "totalReviews": 156,
+      "viewCount": 6840,
+      "featured": false,
+      "popular": false,
+      "remote": true,
+      "images": {
+        "thumbnail": "assets/images/phodong-thumb.jpg",
+        "cover": "assets/images/phodong-cover.jpg"
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Main Entrance",
+          "image": "assets/panoramas/phodong-entrance.jpg",
+          "description": "Traditional architecture entrance"
+        },
+        {
+          "id": "pano-2",
+          "title": "Ancient Murals",
+          "image": "assets/panoramas/phodong-murals.jpg",
+          "description": "Well-preserved 18th century wall paintings"
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/phodong-en.mp3",
+          "duration": "32:00",
+          "narrator": "Tashi Lepcha"
+        }
+      },
+      "highlights": [
+        "Ancient murals",
+        "Annual festival",
+        "Mountain location",
+        "Traditional architecture",
+        "Peaceful environment"
+      ],
+      "facilities": [
+        "Limited parking",
+        "Basic facilities",
+        "Mountain trek"
+      ],
+      "timings": {
+        "summer": "7:00 AM - 5:00 PM",
+        "winter": "8:00 AM - 4:00 PM"
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 20,
+        "student": 5
+      },
+      "tags": ["ancient", "murals", "remote", "kagyu", "north-sikkim"],
+      "lastUpdated": "2024-11-15"
+    },
+    {
+      "id": "tour-006",
+      "monasteryId": 6,
+      "name": "Dubdi Monastery Heritage Walk",
+      "localName": "འདུབ་བདེ་དགོན་པ།",
+      "description": "Sikkim's first monastery, established in 1701, accessible only by foot through a forest trail.",
+      "location": "West Sikkim, Yuksom",
+      "coordinates": [27.3686, 88.2181],
+      "established": 1701,
+      "type": "ancient",
+      "category": "Nyingma",
+      "duration": "25 minutes",
+      "difficulty": "Hard",
+      "bestTime": "Morning",
+      "hasVirtualTour": true,
+      "rating": 4.6,
+      "totalReviews": 89,
+      "viewCount": 4320,
+      "featured": true,
+      "popular": false,
+      "remote": true,
+      "images": {
+        "thumbnail": "assets/images/dubdi-thumb.jpg",
+        "cover": "assets/images/dubdi-cover.jpg"
+      },
+      "panoramas": [
+        {
+          "id": "pano-1",
+          "title": "Historic Structure",
+          "image": "assets/panoramas/dubdi-structure.jpg",
+          "description": "The original monastery building from 1701"
+        }
+      ],
+      "audioGuides": {
+        "en": {
+          "url": "assets/audio/dubdi-en.mp3",
+          "duration": "22:00",
+          "narrator": "Norbu Tamang"
+        }
+      },
+      "highlights": [
+        "First monastery in Sikkim",
+        "Historic significance",
+        "Forest trail access",
+        "Original manuscripts",
+        "Meditation retreat"
+      ],
+      "facilities": [
+        "No vehicle access",
+        "45-minute uphill walk",
+        "Basic facilities"
+      ],
+      "timings": {
+        "summer": "8:00 AM - 4:00 PM",
+        "winter": "9:00 AM - 3:00 PM"
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 20,
+        "student": 5
+      },
+      "tags": ["first-monastery", "historic", "trek", "remote", "yuksom"],
+      "lastUpdated": "2024-11-15"
+    }
+  ],
+  "metadata": {
+    "totalTours": 6,
+    "lastUpdated": "2024-11-15",
+    "version": "1.0"
+  }
+}

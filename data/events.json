@@ -1,0 +1,682 @@
+{
+  "events": [
+    {
+      "id": "event-001",
+      "title": "Losar - Tibetan New Year",
+      "localTitle": "ལོ་གསར།",
+      "description": "The most important festival in the Tibetan Buddhist calendar, celebrating the new year with prayers, traditional dances, and feasts.",
+      "type": "festival",
+      "category": "major-festival",
+      "monastery": "Rumtek Monastery",
+      "monasteryId": 1,
+      "location": "East Sikkim",
+      "date": {
+        "start": "2024-02-10",
+        "end": "2024-02-12"
+      },
+      "time": {
+        "start": "06:00",
+        "end": "20:00"
+      },
+      "lunarDate": {
+        "month": 1,
+        "day": 1,
+        "isLunar": true
+      },
+      "duration": "3 days",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Marks the beginning of the Tibetan calendar year, time for purification and renewal",
+        "cultural": "Traditional dances, special foods, and family gatherings",
+        "historical": "Celebrated for over 1000 years in Tibet and Himalayan regions"
+      },
+      "activities": [
+        {
+          "time": "06:00",
+          "activity": "Morning Prayers",
+          "description": "Special prayers for prosperity and peace in the new year",
+          "location": "Main Prayer Hall"
+        },
+        {
+          "time": "10:00",
+          "activity": "Cham Dance Performance",
+          "description": "Masked dance depicting victory of good over evil",
+          "location": "Monastery Courtyard"
+        },
+        {
+          "time": "14:00",
+          "activity": "Traditional Feast",
+          "description": "Community meal with traditional Tibetan dishes",
+          "location": "Community Hall"
+        },
+        {
+          "time": "16:00",
+          "activity": "Cultural Programs",
+          "description": "Folk songs, dances, and traditional games",
+          "location": "Open Grounds"
+        },
+        {
+          "time": "18:00",
+          "activity": "Butter Lamp Lighting",
+          "description": "Lighting of thousand butter lamps for peace",
+          "location": "Temple"
+        }
+      ],
+      "participation": {
+        "isOpen": true,
+        "requiresRegistration": false,
+        "expectedAttendance": 5000,
+        "dresscode": "Traditional or modest clothing recommended",
+        "guidelines": [
+          "Remove shoes in prayer areas",
+          "Photography allowed in designated areas only",
+          "Maintain silence during prayers",
+          "Follow monastery rules"
+        ]
+      },
+      "offerings": {
+        "suggested": ["Khata (ceremonial scarf)", "Fruits", "Incense", "Butter lamps"],
+        "available": true,
+        "location": "Monastery shop"
+      },
+      "transport": {
+        "publicTransport": "Special buses from Gangtok",
+        "parking": "Available at monastery",
+        "nearestStop": "Rumtek Monastery Gate"
+      },
+      "accommodation": {
+        "nearby": ["Rumtek Resort", "Monastery Guest House", "Local Homestays"],
+        "booking": "Advance booking recommended"
+      },
+      "contact": {
+        "organizer": "Rumtek Monastery Committee",
+        "phone": "+91-3592-252215",
+        "email": "events@rumtek.org"
+      },
+      "media": {
+        "images": ["losar-1.jpg", "losar-2.jpg", "losar-3.jpg"],
+        "videos": ["losar-highlights.mp4"],
+        "liveStream": {
+          "available": true,
+          "platform": "YouTube",
+          "link": "https://youtube.com/rumteklive"
+        }
+      },
+      "weather": {
+        "expected": "Cold, 5-15°C",
+        "advisory": "Carry warm clothes"
+      },
+      "tags": ["major-festival", "losar", "new-year", "cham-dance", "cultural"],
+      "featured": true,
+      "popular": true,
+      "virtualParticipation": {
+        "available": true,
+        "platform": "Zoom",
+        "registration": "https://rumtek.org/virtual-losar"
+      }
+    },
+    {
+      "id": "event-002",
+      "title": "Saga Dawa",
+      "localTitle": "ས་ག་ཟླ་བ།",
+      "description": "Sacred month commemorating Buddha's birth, enlightenment, and parinirvana. Most merit-generating time of the year.",
+      "type": "festival",
+      "category": "religious",
+      "monastery": "Pemayangtse Monastery",
+      "monasteryId": 2,
+      "location": "West Sikkim",
+      "date": {
+        "start": "2024-05-23",
+        "end": "2024-05-23"
+      },
+      "time": {
+        "start": "04:00",
+        "end": "20:00"
+      },
+      "lunarDate": {
+        "month": 4,
+        "day": 15,
+        "isLunar": true
+      },
+      "duration": "1 day (month-long observance)",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Triple blessed day - Buddha's birth, enlightenment, and passing",
+        "cultural": "Day of merit multiplication - good deeds magnified 100,000 times",
+        "historical": "Observed since Buddha's time, over 2500 years"
+      },
+      "activities": [
+        {
+          "time": "04:00",
+          "activity": "Pre-dawn Prayers",
+          "description": "Special prayers and meditation session",
+          "location": "Main Temple"
+        },
+        {
+          "time": "06:00",
+          "activity": "Procession",
+          "description": "Holy scripture procession around monastery",
+          "location": "Monastery Grounds"
+        },
+        {
+          "time": "09:00",
+          "activity": "Life Release Ceremony",
+          "description": "Releasing fish and birds as act of compassion",
+          "location": "Nearby River"
+        },
+        {
+          "time": "12:00",
+          "activity": "Community Lunch",
+          "description": "Vegetarian feast for all attendees",
+          "location": "Community Hall"
+        },
+        {
+          "time": "15:00",
+          "activity": "Dharma Teaching",
+          "description": "Teaching on Buddha's life and enlightenment",
+          "location": "Assembly Hall"
+        },
+        {
+          "time": "18:00",
+          "activity": "Butter Lamp Offering",
+          "description": "Lighting of 2500 butter lamps",
+          "location": "Temple Courtyard"
+        }
+      ],
+      "participation": {
+        "isOpen": true,
+        "requiresRegistration": false,
+        "expectedAttendance": 3000,
+        "dresscode": "White or light-colored clothing preferred",
+        "guidelines": [
+          "Vegetarian food only",
+          "No alcohol or smoking",
+          "Observe silence during prayers",
+          "Participate in life release ceremony"
+        ]
+      },
+      "tags": ["saga-dawa", "buddha", "merit", "religious", "pilgrimage"],
+      "featured": true,
+      "popular": true
+    },
+    {
+      "id": "event-003",
+      "title": "Bumchu Festival",
+      "localTitle": "བུམ་ཆུ།",
+      "description": "Sacred water vase opening ceremony at Tashiding, predicting Sikkim's future for the year.",
+      "type": "festival",
+      "category": "religious",
+      "monastery": "Tashiding Monastery",
+      "monasteryId": 3,
+      "location": "West Sikkim",
+      "date": {
+        "start": "2024-03-14",
+        "end": "2024-03-15"
+      },
+      "time": {
+        "start": "03:00",
+        "end": "18:00"
+      },
+      "lunarDate": {
+        "month": 1,
+        "day": 14,
+        "isLunar": true
+      },
+      "duration": "2 days",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Sacred water blessed by Guru Padmasambhava",
+        "cultural": "Predicts prosperity and weather for coming year",
+        "historical": "Continuous tradition since 17th century"
+      },
+      "activities": [
+        {
+          "time": "03:00",
+          "activity": "Sacred Vase Opening",
+          "description": "Opening of holy water vase by head lama",
+          "location": "Inner Sanctum"
+        },
+        {
+          "time": "06:00",
+          "activity": "Water Level Reading",
+          "description": "Prediction based on water level in vase",
+          "location": "Main Temple"
+        },
+        {
+          "time": "09:00",
+          "activity": "Holy Water Distribution",
+          "description": "Distribution of sacred water to devotees",
+          "location": "Temple Courtyard"
+        },
+        {
+          "time": "14:00",
+          "activity": "Ritual Dances",
+          "description": "Traditional Cham dances",
+          "location": "Monastery Grounds"
+        }
+      ],
+      "participation": {
+        "isOpen": true,
+        "requiresRegistration": false,
+        "expectedAttendance": 10000,
+        "dresscode": "Traditional dress encouraged"
+      },
+      "tags": ["bumchu", "holy-water", "prediction", "unique", "pilgrimage"],
+      "featured": true,
+      "popular": true
+    },
+    {
+      "id": "event-004",
+      "title": "Pang Lhabsol",
+      "localTitle": "དཔང་ལྷ་གསོལ།",
+      "description": "Unique Sikkimese festival honoring Mount Khangchendzonga as guardian deity.",
+      "type": "festival",
+      "category": "cultural",
+      "monastery": "Pemayangtse Monastery",
+      "monasteryId": 2,
+      "location": "West Sikkim",
+      "date": {
+        "start": "2024-08-29",
+        "end": "2024-08-29"
+      },
+      "time": {
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "duration": "1 day",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Worship of Khangchendzonga as protector deity",
+        "cultural": "Unique to Sikkim, warrior dance performances",
+        "historical": "Instituted by 3rd Chogyal in 18th century"
+      },
+      "activities": [
+        {
+          "time": "08:00",
+          "activity": "Invocation Ceremony",
+          "description": "Invoking mountain deities and protectors",
+          "location": "Main Temple"
+        },
+        {
+          "time": "10:00",
+          "activity": "Pangtoed Cham",
+          "description": "Warrior dance unique to Sikkim",
+          "location": "Courtyard"
+        },
+        {
+          "time": "14:00",
+          "activity": "Offerings to Khangchendzonga",
+          "description": "Special offerings to mountain deity",
+          "location": "Altar"
+        }
+      ],
+      "tags": ["pang-lhabsol", "khangchendzonga", "warrior-dance", "unique-to-sikkim"],
+      "featured": false,
+      "popular": true
+    },
+    {
+      "id": "event-005",
+      "title": "Drukpa Tseshi",
+      "localTitle": "དྲུག་པ་ཚེས་བཞི།",
+      "description": "Celebrates Buddha's first sermon at Sarnath, marking the beginning of Dharma teaching.",
+      "type": "religious",
+      "category": "religious",
+      "monastery": "Enchey Monastery",
+      "monasteryId": 4,
+      "location": "Gangtok",
+      "date": {
+        "start": "2024-07-21",
+        "end": "2024-07-21"
+      },
+      "time": {
+        "start": "06:00",
+        "end": "18:00"
+      },
+      "lunarDate": {
+        "month": 6,
+        "day": 4,
+        "isLunar": true
+      },
+      "duration": "1 day",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "First turning of Dharma wheel by Buddha",
+        "cultural": "Day of teaching and learning",
+        "historical": "Commemorates event from 2500 years ago"
+      },
+      "activities": [
+        {
+          "time": "06:00",
+          "activity": "Morning Prayers",
+          "description": "Special prayers commemorating first sermon",
+          "location": "Prayer Hall"
+        },
+        {
+          "time": "10:00",
+          "activity": "Dharma Discourse",
+          "description": "Teaching on Four Noble Truths",
+          "location": "Assembly Hall"
+        },
+        {
+          "time": "14:00",
+          "activity": "Debate Session",
+          "description": "Monks' philosophical debate demonstration",
+          "location": "Courtyard"
+        }
+      ],
+      "tags": ["drukpa-tseshi", "first-sermon", "dharma", "teaching"],
+      "featured": false,
+      "popular": false
+    },
+    {
+      "id": "event-006",
+      "title": "Kagyed Dance Festival",
+      "localTitle": "བཀའ་བརྒྱད།",
+      "description": "Eight manifestations of Guru Padmasambhava depicted through sacred masked dances.",
+      "type": "festival",
+      "category": "cultural",
+      "monastery": "Rumtek Monastery",
+      "monasteryId": 1,
+      "location": "East Sikkim",
+      "date": {
+        "start": "2024-12-18",
+        "end": "2024-12-19"
+      },
+      "time": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "lunarDate": {
+        "month": 10,
+        "day": 28,
+        "isLunar": true
+      },
+      "duration": "2 days",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Depicts Guru Rinpoche's eight manifestations",
+        "cultural": "Elaborate costumes and masked dances",
+        "historical": "Ancient Tibetan Buddhist tradition"
+      },
+      "activities": [
+        {
+          "time": "09:00",
+          "activity": "Opening Ceremony",
+          "description": "Ritual preparation and blessing",
+          "location": "Main Temple"
+        },
+        {
+          "time": "10:00",
+          "activity": "Kagyed Cham Dance",
+          "description": "Eight forms of Guru Rinpoche dance",
+          "location": "Courtyard"
+        },
+        {
+          "time": "14:00",
+          "activity": "Black Hat Dance",
+          "description": "Sacred dance for subduing negative forces",
+          "location": "Courtyard"
+        },
+        {
+          "time": "16:00",
+          "activity": "Torma Offering",
+          "description": "Ritual cake offering ceremony",
+          "location": "Temple"
+        }
+      ],
+      "tags": ["kagyed", "cham-dance", "guru-rinpoche", "masked-dance"],
+      "featured": true,
+      "popular": true
+    },
+    {
+      "id": "event-007",
+      "title": "Meditation Retreat",
+      "localTitle": "སྒོམ་སྒྲུབ།",
+      "description": "7-day silent meditation retreat focusing on mindfulness and compassion practices.",
+      "type": "retreat",
+      "category": "spiritual",
+      "monastery": "Tashiding Monastery",
+      "monasteryId": 3,
+      "location": "West Sikkim",
+      "date": {
+        "start": "2024-11-15",
+        "end": "2024-11-21"
+      },
+      "time": {
+        "start": "04:30",
+        "end": "21:00"
+      },
+      "duration": "7 days",
+      "frequency": "Quarterly",
+      "significance": {
+        "religious": "Deepening meditation practice",
+        "cultural": "Traditional Buddhist retreat format",
+        "historical": "Based on ancient meditation traditions"
+      },
+      "activities": [
+        {
+          "time": "04:30",
+          "activity": "Morning Meditation",
+          "description": "Silent sitting meditation",
+          "location": "Meditation Hall"
+        },
+        {
+          "time": "06:00",
+          "activity": "Walking Meditation",
+          "description": "Mindful walking in monastery grounds",
+          "location": "Gardens"
+        },
+        {
+          "time": "08:00",
+          "activity": "Breakfast (Silent)",
+          "description": "Mindful eating practice",
+          "location": "Dining Hall"
+        },
+        {
+          "time": "09:00",
+          "activity": "Dharma Teaching",
+          "description": "Instructions on meditation techniques",
+          "location": "Teaching Hall"
+        },
+        {
+          "time": "14:00",
+          "activity": "Afternoon Practice",
+          "description": "Guided meditation session",
+          "location": "Meditation Hall"
+        },
+        {
+          "time": "19:00",
+          "activity": "Evening Meditation",
+          "description": "Loving-kindness meditation",
+          "location": "Meditation Hall"
+        }
+      ],
+      "participation": {
+        "isOpen": true,
+        "requiresRegistration": true,
+        "maxParticipants": 30,
+        "prerequisites": "Basic meditation experience recommended",
+        "fee": {
+          "indian": 7000,
+          "foreign": 15000,
+          "includes": "Accommodation, meals, teachings"
+        }
+      },
+      "tags": ["retreat", "meditation", "silent", "mindfulness", "spiritual"],
+      "featured": false,
+      "popular": true
+    },
+    {
+      "id": "event-008",
+      "title": "Guru Rinpoche's Birthday",
+      "localTitle": "གུ་རུ་རིན་པོ་ཆེའི་འཁྲུངས་སྐར།",
+      "description": "Celebration of Padmasambhava's birth with special prayers and ceremonies.",
+      "type": "religious",
+      "category": "religious",
+      "monastery": "Phodong Monastery",
+      "monasteryId": 5,
+      "location": "North Sikkim",
+      "date": {
+        "start": "2024-07-18",
+        "end": "2024-07-18"
+      },
+      "time": {
+        "start": "06:00",
+        "end": "18:00"
+      },
+      "lunarDate": {
+        "month": 5,
+        "day": 10,
+        "isLunar": true
+      },
+      "duration": "1 day",
+      "frequency": "Annual",
+      "significance": {
+        "religious": "Birth of Guru Padmasambhava",
+        "cultural": "Important day for Nyingma tradition",
+        "historical": "8th century master who brought Buddhism to Tibet"
+      },
+      "tags": ["guru-rinpoche", "padmasambhava", "birthday", "religious"],
+      "featured": false,
+      "popular": true
+    },
+    {
+      "id": "event-009",
+      "title": "Dharma Teaching Series",
+      "localTitle": "ཆོས་ཀྱི་བཤད་ཁྲིད།",
+      "description": "Weekly teachings on Buddhist philosophy and practice open to all.",
+      "type": "teaching",
+      "category": "educational",
+      "monastery": "Rumtek Monastery",
+      "monasteryId": 1,
+      "location": "East Sikkim",
+      "date": {
+        "start": "2024-01-07",
+        "end": "2024-12-29"
+      },
+      "time": {
+        "start": "16:00",
+        "end": "17:30"
+      },
+      "duration": "Every Sunday",
+      "frequency": "Weekly",
+      "significance": {
+        "religious": "Spreading Buddha's teachings",
+        "cultural": "Community education",
+        "historical": "Traditional teaching format"
+      },
+      "activities": [
+        {
+          "time": "16:00",
+          "activity": "Dharma Talk",
+          "description": "Teaching by senior monk",
+          "location": "Teaching Hall"
+        },
+        {
+          "time": "17:00",
+          "activity": "Q&A Session",
+          "description": "Interactive discussion",
+          "location": "Teaching Hall"
+        }
+      ],
+      "participation": {
+        "isOpen": true,
+        "requiresRegistration": false,
+        "language": ["English", "Hindi", "Nepali"],
+        "fee": {
+          "amount": 0,
+          "donation": "Welcome"
+        }
+      },
+      "virtualParticipation": {
+        "available": true,
+        "platform": "YouTube Live",
+        "link": "https://youtube.com/rumtekteachings"
+      },
+      "tags": ["teaching", "weekly", "dharma", "education", "free"],
+      "featured": false,
+      "popular": false
+    },
+    {
+      "id": "event-010",
+      "title": "Full Moon Prayers",
+      "localTitle": "ཟླ་བའི་ཚེས་བཅོ་ལྔ།",
+      "description": "Special prayers and meditation on full moon day, considered auspicious for spiritual practice.",
+      "type": "religious",
+      "category": "religious",
+      "monastery": "All Monasteries",
+      "monasteryId": 0,
+      "location": "All Sikkim",
+      "date": {
+        "start": "2024-11-15",
+        "end": "2024-11-15"
+      },
+      "time": {
+        "start": "18:00",
+        "end": "20:00"
+      },
+      "duration": "2 hours",
+      "frequency": "Monthly",
+      "significance": {
+        "religious": "Auspicious day for spiritual practice",
+        "cultural": "Community gathering for prayers",
+        "historical": "Ancient Buddhist tradition"
+      },
+      "activities": [
+        {
+          "time": "18:00",
+          "activity": "Evening Prayers",
+          "description": "Chanting and meditation",
+          "location": "Prayer Hall"
+        },
+        {
+          "time": "19:30",
+          "activity": "Butter Lamp Offering",
+          "description": "Lighting lamps for all beings",
+          "location": "Temple"
+        }
+      ],
+      "tags": ["full-moon", "monthly", "prayers", "meditation"],
+      "featured": false,
+      "popular": false
+    }
+  ],
+  "recurringEvents": [
+    {
+      "title": "Morning Prayers",
+      "frequency": "Daily",
+      "time": "05:00 - 06:30",
+      "monasteries": "All",
+      "description": "Daily morning prayer session open to visitors"
+    },
+    {
+      "title": "Evening Prayers",
+      "frequency": "Daily",
+      "time": "17:00 - 18:30",
+      "monasteries": "All",
+      "description": "Evening prayer and meditation session"
+    },
+    {
+      "title": "Butter Lamp Offering",
+      "frequency": "Daily",
+      "time": "18:30",
+      "monasteries": "All",
+      "description": "Daily butter lamp lighting ceremony"
+    },
+    {
+      "title": "Monks' Debate",
+      "frequency": "Monday, Wednesday, Friday",
+      "time": "15:00 - 16:00",
+      "monasteries": "Rumtek, Phodong",
+      "description": "Philosophical debate practice sessions"
+    }
+  ],
+  "metadata": {
+    "totalEvents": 10,
+    "totalRecurring": 4,
+    "lastUpdated": "2024-11-15",
+    "version": "1.0",
+    "calendar": "Tibetan Lunar Calendar",
+    "note": "Dates may vary based on lunar calendar calculations"
+  }
+}

@@ -3,13 +3,140 @@
     {
       "id": 1,
       "name": "Rumtek Monastery",
-      "location": "East Sikkim",
-      "coordinates": [27.2833, 88.5556],
-      "established": 1966,
-      "type": "ancient",
-      "hasVirtualTour": true,
-      "description": "The largest monastery in Sikkim, seat of the Karmapa",
-      "rating": 4.8
+      "localName": "རུམ་ཐེག་དགོན་པ།",
+      "alternateNames": ["Dharma Chakra Centre", "Rumtek Dharma Chakra"],
+      "description": "The largest and most significant monastery in Sikkim, serving as the main seat of the Karma Kagyu lineage. Known for its stunning architecture, golden stupa, and extensive collection of religious artifacts.",
+      "location": {
+        "address": "Rumtek, Near Gangtok",
+        "district": "East Sikkim",
+        "state": "Sikkim",
+        "pincode": "737135",
+        "coordinates": {
+          "latitude": 27.2833,
+          "longitude": 88.5556
+        },
+        "elevation": 1500,
+        "distanceFromGangtok": 24
+      },
+      "established": {
+        "year": 1966,
+        "originalYear": 1740,
+        "founder": "16th Karmapa, Rangjung Rigpe Dorje",
+        "originalFounder": "9th Karmapa Wangchuk Dorje"
+      },
+      "sect": "Kagyu",
+      "affiliation": "Karma Kagyu",
+      "significance": "Main seat of Karmapa outside Tibet",
+      "architecture": {
+        "style": "Traditional Tibetan",
+        "mainBuildings": ["Main Temple", "Golden Stupa", "Monastery College", "Retreat Center"],
+        "capacity": 500,
+        "uniqueFeatures": ["Golden Stupa with 16th Karmapa's relics", "Traditional murals", "Ancient thangkas"]
+      },
+      "collections": {
+        "manuscripts": 500,
+        "thangkas": 200,
+        "statues": 100,
+        "relics": "16th Karmapa's personal belongings"
+      },
+      "facilities": {
+        "accommodation": true,
+        "guestHouse": "Available for pilgrims",
+        "cafeteria": true,
+        "parking": "Large parking area",
+        "museum": true,
+        "library": true,
+        "meditationHall": true,
+        "giftShop": true,
+        "wheelchairAccess": "Partial"
+      },
+      "timings": {
+        "summer": {
+          "open": "06:00",
+          "close": "19:00"
+        },
+        "winter": {
+          "open": "07:00",
+          "close": "17:00"
+        },
+        "prayerTimes": ["05:00", "10:00", "15:00", "18:00"],
+        "closedDays": ["During special ceremonies"]
+      },
+      "entryFee": {
+        "indian": 10,
+        "foreign": 50,
+        "student": 5,
+        "child": 0,
+        "photography": 20,
+        "videography": 100
+      },
+      "contact": {
+        "phone": "+91-3592-252215",
+        "email": "info@rumtek.org",
+        "website": "www.rumtek.org",
+        "socialMedia": {
+          "facebook": "RumtekMonastery",
+          "instagram": "@rumtek_monastery"
+        }
+      },
+      "transport": {
+        "nearestAirport": {
+          "name": "Bagdogra Airport",
+          "distance": 124
+        },
+        "nearestRailway": {
+          "name": "New Jalpaiguri",
+          "distance": 114
+        },
+        "localTransport": ["Taxi from Gangtok", "Shared jeeps available"],
+        "roadCondition": "Good, well-maintained"
+      },
+      "bestTimeToVisit": "March to May, September to November",
+      "averageVisitDuration": "2-3 hours",
+      "photographyAllowed": true,
+      "dresscode": "Modest clothing, no shorts or sleeveless",
+      "languages": ["English", "Hindi", "Nepali", "Tibetan"],
+      "guides": {
+        "available": true,
+        "languages": ["English", "Hindi", "Nepali"],
+        "fee": 500
+      },
+      "nearbyAttractions": [
+        {
+          "name": "Lingdum Monastery",
+          "distance": 2,
+          "walkingTime": "30 minutes"
+        },
+        {
+          "name": "Gangtok City",
+          "distance": 24,
+          "driveTime": "45 minutes"
+        }
+      ],
+      "festivals": [
+        {
+          "name": "Kagyed Dance",
+          "month": "December",
+          "duration": "2 days"
+        },
+        {
+          "name": "Losar",
+          "month": "February",
+          "duration": "3 days"
+        }
+      ],
+      "monks": {
+        "resident": 300,
+        "students": 200,
+        "teachers": 50
+      },
+      "virtualTour": true,
+      "audioGuide": true,
+      "rating": 4.8,
+      "reviews": 3420,
+      "popularityRank": 1,
+      "tags": ["must-visit", "kagyu", "golden-stupa", "16th-karmapa", "largest-monastery"],
+      "lastUpdated": "2024-11-15"
     }
   ]
 }

@@ -580,6 +580,10 @@ window.addEventListener('languageChanged', (e) => {
     }
 });
 
+import toursData from './data/tours.json' assert { type: 'json' };
+import eventsData from './data/events.json' assert { type: 'json' };
+import monasteriesData from './data/monasteries.json' assert { type: 'json' };
+
 class Monastery360App {
     constructor() {
         this.currentLanguage = window.languageManager?.getCurrentLanguage() || 'en';
