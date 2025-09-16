@@ -1,0 +1,15 @@
+{
+  "monasteries": [
+    {
+      "id": 1,
+      "name": "Rumtek Monastery",
+      "location": "East Sikkim",
+      "coordinates": [27.2833, 88.5556],
+      "established": 1966,
+      "type": "ancient",
+      "hasVirtualTour": true,
+      "description": "The largest monastery in Sikkim, seat of the Karmapa",
+      "rating": 4.8
+    }
+  ]
+}
