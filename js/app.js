@@ -579,14 +579,9 @@ window.addEventListener('languageChanged', (e) => {
         window.app.renderArchives();
     }
 });
-
-import toursData from './data/tours.json' assert { type: 'json' };
-import eventsData from './data/events.json' assert { type: 'json' };
-import monasteriesData from './data/monasteries.json' assert { type: 'json' };
-
 class Monastery360App {
     constructor() {
-        this.currentLanguage = window.languageManager?.getCurrentLanguage() || 'en';
+        this.currentLanguage = 'en';
         this.currentTheme = 'light';
         this.monasteries = [];
         this.events = [];
@@ -599,66 +594,6 @@ class Monastery360App {
         this.panoramaZoom = 1;
 
         this.init();
-
-        window.addEventListener('languageChanged', (e) => {
-            this.handleLanguageChange(e.detail.language);
-        });
-    }
-
-    handleLanguageChange(newLanguage) {
-        this.currentLanguage = newLanguage;
-        
-        // Update dynamic content
-        this.updateDynamicContent();
-        
-        // Update audio guides
-        if (this.currentMonastery) {
-            this.loadAudioGuide(this.currentMonastery);
-        }
-    }
-
-    updateDynamicContent() {
-        // Update any dynamically generated content
-        const tourCards = document.querySelectorAll('.tour-card');
-        tourCards.forEach(card => {
-            // Update text based on current language
-            const exploreBtn = card.querySelector('.btn-outline');
-            if (exploreBtn) {
-                exploreBtn.textContent = window.languageManager.getTranslation('tour_explore');
-            }
-        });
-    }
-
-    // Modified method to support translations
-    renderTours() {
-        const grid = document.getElementById('toursGrid');
-        if (!grid) return;
-        
-        grid.innerHTML = this.tours.map(tour => `
-            <div class="tour-card" onclick="app.openTour(${tour.id})">
-                <div class="tour-image">
-                    <img src="${tour.image || 'assets/images/monastery-default.jpg'}" alt="${tour.name}">
-                    <span class="tour-badge">360°</span>
-                </div>
-                <div class="tour-content">
-                    <h3 class="tour-title">${tour.name}</h3>
-                    <div class="tour-location">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>${tour.location}</span>
-                    </div>
-                    <p>${tour.description}</p>
-                    <div class="tour-actions">
-                        <div class="tour-rating">
-                            ${'★'.repeat(Math.floor(tour.rating))}
-                            <span>${tour.rating}</span>
-                        </div>
-                        <button class="btn btn-outline">
-                            ${window.languageManager.getTranslation('tour_explore')}
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `).join('');
     }
 
     async init() {
